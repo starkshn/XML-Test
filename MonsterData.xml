@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MonsterDatas>
 	<MonsterData name="Enemy1" prefab="Enemy1" level="1" maxHp="100" attack="10" speed="3.2">
-    <DropData>
+    <MonsterDropItemData>
       <Item prob="3" name="Magnetic" prefab="Magnetic.prefab" type="Env"></Item>
       <Item prob="30" name="Gold" prefab="Gold.prefab" type="Env"></Item>
       <Item prob="57" name="Gem" prefab="ExpGem.prefab" type="Env"></Item>
-    </DropData>
+    </MonsterDropItemData>
 	</MonsterData>
 	<MonsterData name="Enemy2" prefab="Enemy2" level="2" maxHp="130" attack="10" speed="3.2">		
 	</MonsterData>
